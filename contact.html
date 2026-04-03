@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact – Heritage Trail Mercantile</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Cormorant+SC:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+
+body{
+  background:rgb(241,240,237);
+  font-family:'Cormorant Garamond',Georgia,serif;
+  margin:0;
+  padding:0;
+  animation:fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn{
+  from{opacity:0;}
+  to{opacity:1;}
+}
+
+.pw{
+  background:#fff;
+  max-width:700px;
+  margin:0 auto;
+}
+@media(min-width:720px){
+  .pw{
+    border-left:1px solid #c4c0b8;
+    border-right:1px solid #c4c0b8;
+    min-height:100vh;
+  }
+}
+
+/* NAV */
+nav{
+  background:#b5bf8b;
+  padding:11px 20px;
+  text-align:center;
+}
+nav a{
+  font-family:Baskerville,'Baskerville Old Face',Georgia,serif;
+  font-size:11px;
+  font-weight:500;
+  letter-spacing:.14em;
+  color:#fff;
+  text-decoration:none;
+  margin:0 9px;
+  text-transform:uppercase;
+}
+nav a:hover{text-decoration:underline;}
+
+/* LOGO */
+.logo{
+  display:block;
+  width:100%;
+  height:auto;
+  margin-top:24px;
+}
+
+/* CONTENT */
+.content{
+  padding:0 48px 48px;
+  text-align:center;
+}
+
+/* TAGLINE */
+.tagline{
+  font-family:'Cormorant Garamond',serif;
+  font-style:italic;
+  font-size:22px;
+  font-weight:400;
+  color:#4a4540;
+  margin:24px 0 32px;
+}
+
+/* SECTIONS */
+.section{
+  margin-bottom:32px;
+  padding-bottom:32px;
+  border-bottom:1px solid #e0ddd8;
+}
+.section:last-of-type{
+  border-bottom:none;
+}
+
+.section-heading{
+  font-family:'Cormorant SC',serif;
+  font-size:13px;
+  font-weight:500;
+  letter-spacing:.22em;
+  color:#7aa5ab;
+  text-decoration:underline;
+  text-underline-offset:4px;
+  margin-bottom:14px;
+  display:block;
+}
+
+.section p{
+  font-family:'Cormorant Garamond',serif;
+  font-size:17px;
+  font-weight:400;
+  line-height:1.7;
+  color:#4a4540;
+  margin-bottom:10px;
+}
+.section p:last-child{margin-bottom:0;}
+
+.section a{
+  color:#4a4540;
+  text-decoration:none;
+}
+.section a:hover{text-decoration:underline;}
+
+/* CONTACT FORM */
+.form-section{
+  text-align:left;
+  margin-top:32px;
+}
+.form-section .section-heading{
+  text-align:center;
+  display:block;
+  margin-bottom:8px;
+}
+.form-section .subtext{
+  font-family:'Cormorant Garamond',serif;
+  font-style:normal;
+  font-size:17px;
+  color:#4a4540;
+  text-align:center;
+  margin-bottom:24px;
+  line-height:1.6;
+}
+
+.field{
+  margin-bottom:16px;
+}
+.field label{
+  font-family:Baskerville,'Baskerville Old Face',Georgia,serif;
+  font-size:10px;
+  letter-spacing:.16em;
+  color:#4a4540;
+  text-transform:uppercase;
+  display:block;
+  margin-bottom:6px;
+}
+.field input,
+.field textarea{
+  width:100%;
+  background:rgb(241,240,237);
+  border:none;
+  padding:10px 12px;
+  font-family:'Cormorant Garamond',serif;
+  font-size:16px;
+  color:#4a4540;
+  outline:none;
+  border-radius:0;
+  -webkit-appearance:none;
+}
+.field textarea{
+  height:140px;
+  resize:vertical;
+}
+.field input:focus,
+.field textarea:focus{
+  outline:1px solid #b5bf8b;
+}
+
+.submit-btn{
+  display:block;
+  width:100%;
+  margin-top:20px;
+  padding:14px;
+  background:#b5bf8b;
+  border:none;
+  font-family:'Cormorant SC',serif;
+  font-size:12px;
+  font-weight:500;
+  letter-spacing:.22em;
+  color:#fff;
+  text-transform:uppercase;
+  cursor:pointer;
+}
+.submit-btn:hover{background:#a3ae78;}
+
+/* SOCIAL ICONS */
+.social{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:20px;
+  padding:24px 0;
+  background:#fff;
+}
+
+/* FOOTER */
+footer{
+  background:#fff;
+  text-align:center;
+  padding:14px 20px 20px;
+  border-top:1px solid #e0ddd8;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:9px;
+  letter-spacing:.04em;
+  color:#000;
+  line-height:1.9;
+}
+footer a{color:#000;text-decoration:none;}
+footer a:hover{text-decoration:underline;}
+</style>
+</head>
+<body>
+<div class="pw">
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html">About HTM</a>
+    <a href="storetour.html">Tour the Store</a>
+    <a href="sales.html">Sales Events</a>
+    <a href="history.html">Our History</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- LOGO -->
+  <a href="index.html">
+    <img class="logo" src="section-1-logo.jpg" alt="Heritage Trail Mercantile">
+  </a>
+
+  <div class="content">
+
+    <!-- TAGLINE -->
+    <p class="tagline">Open seven days a week!</p>
+
+    <!-- LOCATION -->
+    <div class="section">
+      <span class="section-heading">Location</span>
+      <p>190-B Northfield Road<br>Northfield, Illinois 60093</p>
+      <p><a href="tel:8472566208">847-256-6208</a></p>
+    </div>
+
+    <!-- DIRECTIONS -->
+    <div class="section">
+      <span class="section-heading">Directions</span>
+      <p>Exit Interstate I-94 at Willow Road and travel two blocks west to Northfield Road. At the stoplight, turn south.</p>
+      <p>We are located on the west side of the street, one-half mile south of the Willow and Northfield intersection.</p>
+    </div>
+
+    <!-- SOCIAL MEDIA -->
+    <div class="section">
+      <span class="section-heading">Visit on Social Media</span>
+      <p><a href="https://www.instagram.com/heritage.trail/" target="_blank">@heritage.trail</a></p>
+      <p><a href="https://www.instagram.com/house_of_holly_vintage/" target="_blank">@house_of_holly_vintage</a></p>
+    </div>
+
+    <!-- HOURS -->
+    <div class="section">
+      <span class="section-heading">Hours</span>
+      <p>Monday thru Friday: 10am to 6pm<br>Saturday: 10am to 5:30pm<br>Sunday: 10am to 5pm</p>
+    </div>
+
+    <!-- CONTACT FORM -->
+    <div class="form-section">
+      <span class="section-heading">Contact Us</span>
+      <p class="subtext">Please fill out the form completely<br>with any questions or requests.</p>
+      <form action="https://formspree.io/f/xaqlplkg" method="POST">
+      <div class="field">
+        <label>First Name</label>
+        <input type="text" name="first_name">
+      </div>
+      <div class="field">
+        <label>Last Name</label>
+        <input type="text" name="last_name">
+      </div>
+      <div class="field">
+        <label>Phone</label>
+        <input type="tel" name="phone">
+      </div>
+      <div class="field">
+        <label>Email</label>
+        <input type="email" name="email">
+      </div>
+      <div class="field">
+        <label>Type Your Message</label>
+        <textarea name="message"></textarea>
+      </div>
+      <button class="submit-btn" type="submit">Send Message</button>
+      </form>
+    </div>
+
+  </div>
+
+  <!-- SOCIAL ICONS -->
+  <div class="social">
+    <a href="https://www.instagram.com/heritage.trail/" target="_blank" aria-label="Instagram">
+      <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+        <defs>
+          <radialGradient id="ig" cx="30%" cy="107%" r="150%">
+            <stop offset="0%" stop-color="#fdf497"/>
+            <stop offset="5%" stop-color="#fdf497"/>
+            <stop offset="45%" stop-color="#fd5949"/>
+            <stop offset="60%" stop-color="#d6249f"/>
+            <stop offset="90%" stop-color="#285AEB"/>
+          </radialGradient>
+        </defs>
+        <rect width="48" height="48" rx="12" fill="url(#ig)"/>
+        <rect x="13" y="13" width="22" height="22" rx="6" stroke="#fff" stroke-width="2.2" fill="none"/>
+        <circle cx="24" cy="24" r="5.5" stroke="#fff" stroke-width="2.2" fill="none"/>
+        <circle cx="31" cy="17" r="1.4" fill="#fff"/>
+      </svg>
+    </a>
+    <a href="https://www.facebook.com/HeritageTrailMall/" target="_blank" aria-label="Facebook">
+      <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+        <rect width="48" height="48" rx="12" fill="#1877F2"/>
+        <path d="M28 14h-3a5 5 0 0 0-5 5v3h-3v5h3v10h5V27h3l1-5h-4v-3a1 1 0 0 1 1-1h3z" fill="#fff"/>
+      </svg>
+    </a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    Heritage Trail Mercantile LLC 2026, All Rights Reserved &nbsp;·&nbsp;
+    190-B Northfield Road, Northfield, IL, 60093 &nbsp;·&nbsp;
+    847-256-6208 &nbsp;·&nbsp;
+    <a href="privacy.html">Privacy Policy and Terms and Services</a> &nbsp;·&nbsp;
+    Development by Notam Branding LLC
+  </footer>
+
+</div>
+</body>
+</html>
