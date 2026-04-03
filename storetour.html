@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tour the Store – Heritage Trail Mercantile</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Cormorant+SC:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+
+body{
+  background:rgb(241,240,237);
+  font-family:'Cormorant SC',Georgia,serif;
+  margin:0;
+  padding:0;
+}
+
+.pw{
+  background:#fff;
+  max-width:700px;
+  margin:0 auto;
+}
+@media(min-width:720px){
+  .pw{
+    border-left:1px solid #c4c0b8;
+    border-right:1px solid #c4c0b8;
+    min-height:100vh;
+  }
+}
+
+/* NAV */
+nav{
+  background:#b5bf8b;
+  padding:11px 20px;
+  text-align:center;
+}
+nav a{
+  font-family:Baskerville,'Baskerville Old Face',Georgia,serif;
+  font-size:11px;
+  font-weight:500;
+  letter-spacing:.14em;
+  color:#fff;
+  text-decoration:none;
+  margin:0 9px;
+  text-transform:uppercase;
+}
+nav a:hover{text-decoration:underline;}
+
+/* LOGO */
+.logo{
+  display:block;
+  width:100%;
+  height:auto;
+  margin-top:24px;
+}
+
+/* COMING SOON BOX */
+.coming-soon{
+  margin:48px 40px;
+  background:rgb(241,240,237);
+  padding:60px 40px;
+  text-align:center;
+}
+.coming-soon h1{
+  font-family:'Cormorant SC',serif;
+  font-size:22px;
+  font-weight:500;
+  letter-spacing:.18em;
+  color:#4a4540;
+  margin-bottom:16px;
+}
+.coming-soon p{
+  font-family:'Cormorant Garamond',serif;
+  font-size:18px;
+  font-weight:400;
+  line-height:1.7;
+  color:#6a6560;
+  font-style:italic;
+}
+
+/* SOCIAL ICONS */
+.social{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:20px;
+  padding:24px 0;
+  background:#fff;
+}
+
+/* FOOTER */
+footer{
+  background:#fff;
+  text-align:center;
+  padding:14px 20px 20px;
+  border-top:1px solid #e0ddd8;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:9px;
+  letter-spacing:.04em;
+  color:#000;
+  line-height:1.9;
+}
+footer a{
+  color:#000;
+  text-decoration:none;
+}
+footer a:hover{text-decoration:underline;}
+</style>
+</head>
+<body>
+<div class="pw">
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html">About HTM</a>
+    <a href="storetour.html">Tour the Store</a>
+    <a href="sales.html">Sales Events</a>
+    <a href="history.html">Our History</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- LOGO -->
+  <a href="index.html">
+    <img class="logo" src="section-1-logo.jpg" alt="Heritage Trail Mercantile">
+  </a>
+
+  <!-- COMING SOON -->
+  <div class="coming-soon">
+    <h1>Tour the Store</h1>
+    <p>Our virtual tour is coming soon!<br>Check back to explore our 6,000 s/f showroom.</p>
+  </div>
+
+  <!-- SOCIAL ICONS -->
+  <div class="social">
+    <a href="https://www.instagram.com/heritage.trail/" target="_blank" aria-label="Instagram">
+      <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <radialGradient id="ig" cx="30%" cy="107%" r="150%">
+            <stop offset="0%" stop-color="#fdf497"/>
+            <stop offset="5%" stop-color="#fdf497"/>
+            <stop offset="45%" stop-color="#fd5949"/>
+            <stop offset="60%" stop-color="#d6249f"/>
+            <stop offset="90%" stop-color="#285AEB"/>
+          </radialGradient>
+        </defs>
+        <rect width="48" height="48" rx="12" fill="url(#ig)"/>
+        <rect x="13" y="13" width="22" height="22" rx="6" stroke="#fff" stroke-width="2.2" fill="none"/>
+        <circle cx="24" cy="24" r="5.5" stroke="#fff" stroke-width="2.2" fill="none"/>
+        <circle cx="31" cy="17" r="1.4" fill="#fff"/>
+      </svg>
+    </a>
+    <a href="https://www.facebook.com/HeritageTrailMall/" target="_blank" aria-label="Facebook">
+      <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="48" height="48" rx="12" fill="#1877F2"/>
+        <path d="M28 14h-3a5 5 0 0 0-5 5v3h-3v5h3v10h5V27h3l1-5h-4v-3a1 1 0 0 1 1-1h3z" fill="#fff"/>
+      </svg>
+    </a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    Heritage Trail Mercantile LLC 2026, All Rights Reserved &nbsp;·&nbsp;
+    190-B Northfield Road, Northfield, IL, 60093 &nbsp;·&nbsp;
+    847-256-6208 &nbsp;·&nbsp;
+    <a href="privacy.html">Privacy Policy and Terms and Services</a> &nbsp;·&nbsp;
+    Development by Notam Branding LLC
+  </footer>
+
+</div>
+</body>
+</html>
