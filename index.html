@@ -44,7 +44,7 @@ nav a{
 }
 nav a:hover{text-decoration:underline;}
 
-/* SECTION IMAGES — flush, no gaps */
+/* SECTION IMAGES — slight breathing room between sections */
 .sec-img{
   display:block;
   width:100%;
@@ -52,8 +52,10 @@ nav a:hover{text-decoration:underline;}
   margin:0;
   padding:0;
   vertical-align:bottom;
-  line-height:0;
-  font-size:0;
+}
+
+.sec-img + .sec-img{
+  margin-top:10px;
 }
 
 /* SOCIAL ICONS */
