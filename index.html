@@ -11,10 +11,8 @@
 body{
   background:#d6d3ce;
   font-family:'Cormorant SC',Georgia,serif;
-  color:#4a4540;
 }
 
-/* Centered column — grey body shows as border on desktop */
 .pw{
   background:#fff;
   max-width:700px;
@@ -30,7 +28,7 @@ body{
 
 /* NAV */
 nav{
-  background:#8fa67c;
+  background:#b5bf8b;
   padding:11px 20px;
   text-align:center;
 }
@@ -46,25 +44,41 @@ nav a{
 }
 nav a:hover{text-decoration:underline;}
 
-/* IMAGES — exact natural dimensions, never stretched */
-.section-img{
+/* SECTION IMAGES */
+.sec-img{
   display:block;
   width:100%;
   height:auto;
+}
+
+/* SOCIAL ICONS */
+.social{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:20px;
+  padding:24px 0;
+  background:#fff;
 }
 
 /* FOOTER */
 footer{
   background:#fff;
   text-align:center;
-  padding:14px 20px 18px;
+  padding:0 20px 20px;
   border-top:1px solid #e0ddd8;
+  padding-top:14px;
   font-family:'Cormorant SC',serif;
   font-size:8px;
   letter-spacing:.07em;
   color:#9a9590;
   line-height:1.9;
 }
+footer a{
+  color:#9a9590;
+  text-decoration:none;
+}
+footer a:hover{text-decoration:underline;}
 </style>
 </head>
 <body>
@@ -72,34 +86,76 @@ footer{
 
   <!-- NAV -->
   <nav>
-    <a href="#">About HTM</a>
-    <a href="#">Tour the Store</a>
-    <a href="#">Sales Events</a>
-    <a href="#">Our History</a>
-    <a href="#">Contact</a>
+    <a href="index.html">About HTM</a>
+    <a href="tour.html">Tour the Store</a>
+    <a href="sales.html">Sales Events</a>
+    <a href="history.html">Our History</a>
+    <a href="contact.html">Contact</a>
   </nav>
 
-  <!-- IMAGE 1: Header / Logo / Intro -->
-  <img class="section-img" src="section-1-header.jpg" alt="Heritage Trail Mercantile header">
+  <!-- IMAGE 1: Logo -->
+  <img class="sec-img" src="section-1-logo.jpg" alt="Heritage Trail Mercantile logo">
 
-  <!-- IMAGE 2: Collage 1 -->
-  <img class="section-img" src="section-2-colllage1.jpg" alt="Antique and vintage item collage">
+  <!-- IMAGE 2: Tagline + Intro -->
+  <img class="sec-img" src="section-2-tagline.jpg" alt="Vintage Home and Style Curators">
 
-  <!-- IMAGE 3: Pull Quote + Collage 2 -->
-  <img class="section-img" src="section-3-quote-collage2.jpg" alt="Pull quote and mid-century collage">
+  <!-- IMAGE 3: Collage 1 -->
+  <img class="sec-img" src="section-3-collage1.jpg" alt="Antique and vintage item collage">
 
-  <!-- IMAGE 4: Mission + Promo Cards -->
-  <img class="section-img" src="section-4-mission-promos.jpg" alt="Mission statement and promo cards">
+  <!-- IMAGE 4: Pull Quote -->
+  <img class="sec-img" src="section-4-quote.jpg" alt="Daily North Shore quote">
 
-  <!-- IMAGE 5: Collage 3 + Footer CTA + Social -->
-  <img class="section-img" src="section-5-collage3-footer.jpg" alt="Final collage and footer call to action">
+  <!-- IMAGE 5: Collage 2 -->
+  <img class="sec-img" src="section-5-collage2.jpg" alt="Mid-century modern collage">
+
+  <!-- IMAGE 6: Mission -->
+  <img class="sec-img" src="section-6-mission.jpg" alt="Our mission is to inspire">
+
+  <!-- IMAGE 7: House of Holly -->
+  <img class="sec-img" src="section-7-holly.jpg" alt="House of Holly chic boutique">
+
+  <!-- IMAGE 8: Sales Events -->
+  <img class="sec-img" src="section-8-sales.jpg" alt="Sales Events">
+
+  <!-- IMAGE 9: Collage 3 -->
+  <img class="sec-img" src="section-9-collage3.jpg" alt="Vintage home and fashion collage">
+
+  <!-- IMAGE 10: CTA -->
+  <img class="sec-img" src="section-10-cta.jpg" alt="Follow us on social media">
+
+  <!-- SOCIAL ICONS -->
+  <div class="social">
+    <a href="https://www.instagram.com/heritagetrailmercantile" target="_blank" aria-label="Instagram">
+      <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <radialGradient id="ig" cx="30%" cy="107%" r="150%">
+            <stop offset="0%" stop-color="#fdf497"/>
+            <stop offset="5%" stop-color="#fdf497"/>
+            <stop offset="45%" stop-color="#fd5949"/>
+            <stop offset="60%" stop-color="#d6249f"/>
+            <stop offset="90%" stop-color="#285AEB"/>
+          </radialGradient>
+        </defs>
+        <rect width="48" height="48" rx="12" fill="url(#ig)"/>
+        <rect x="13" y="13" width="22" height="22" rx="6" stroke="#fff" stroke-width="2.2" fill="none"/>
+        <circle cx="24" cy="24" r="5.5" stroke="#fff" stroke-width="2.2" fill="none"/>
+        <circle cx="31" cy="17" r="1.4" fill="#fff"/>
+      </svg>
+    </a>
+    <a href="https://www.facebook.com/heritagetrailmercantile" target="_blank" aria-label="Facebook">
+      <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="48" height="48" rx="12" fill="#1877F2"/>
+        <path d="M28 14h-3a5 5 0 0 0-5 5v3h-3v5h3v10h5V27h3l1-5h-4v-3a1 1 0 0 1 1-1h3z" fill="#fff"/>
+      </svg>
+    </a>
+  </div>
 
   <!-- FOOTER -->
   <footer>
     Heritage Trail Mercantile LLC 2026, All Rights Reserved &nbsp;·&nbsp;
     190-B Northfield Road, Northfield, IL, 60093 &nbsp;·&nbsp;
     847-256-6208 &nbsp;·&nbsp;
-    Privacy Policy and Terms and Services &nbsp;·&nbsp;
+    <a href="privacy.html">Privacy Policy and Terms and Services</a> &nbsp;·&nbsp;
     Development by Notam Branding LLC
   </footer>
 
