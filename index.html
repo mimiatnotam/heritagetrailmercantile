@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heritage Trail Mercantile</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+
+body{
+  background:#d6d3ce;
+  font-family:'Cormorant SC',Georgia,serif;
+  color:#4a4540;
+}
+
+/* Centered column — grey body shows as border on desktop */
+.pw{
+  background:#fff;
+  max-width:700px;
+  margin:0 auto;
+}
+@media(min-width:720px){
+  .pw{
+    border-left:1px solid #c4c0b8;
+    border-right:1px solid #c4c0b8;
+    min-height:100vh;
+  }
+}
+
+/* NAV */
+nav{
+  background:#8fa67c;
+  padding:11px 20px;
+  text-align:center;
+}
+nav a{
+  font-family:'Cormorant SC',serif;
+  font-size:11px;
+  font-weight:500;
+  letter-spacing:.14em;
+  color:#fff;
+  text-decoration:none;
+  margin:0 9px;
+  text-transform:uppercase;
+}
+nav a:hover{text-decoration:underline;}
+
+/* IMAGES — exact natural dimensions, never stretched */
+.section-img{
+  display:block;
+  width:100%;
+  height:auto;
+}
+
+/* FOOTER */
+footer{
+  background:#fff;
+  text-align:center;
+  padding:14px 20px 18px;
+  border-top:1px solid #e0ddd8;
+  font-family:'Cormorant SC',serif;
+  font-size:8px;
+  letter-spacing:.07em;
+  color:#9a9590;
+  line-height:1.9;
+}
+</style>
+</head>
+<body>
+<div class="pw">
+
+  <!-- NAV -->
+  <nav>
+    <a href="#">About HTM</a>
+    <a href="#">Tour the Store</a>
+    <a href="#">Sales Events</a>
+    <a href="#">Our History</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- IMAGE 1: Header / Logo / Intro -->
+  <img class="section-img" src="images/section-1-header.jpg" alt="Heritage Trail Mercantile header">
+
+  <!-- IMAGE 2: Collage 1 -->
+  <img class="section-img" src="images/section-2-collage1.jpg" alt="Antique and vintage item collage">
+
+  <!-- IMAGE 3: Pull Quote + Collage 2 -->
+  <img class="section-img" src="images/section-3-quote-collage2.jpg" alt="Pull quote and mid-century collage">
+
+  <!-- IMAGE 4: Mission + Promo Cards -->
+  <img class="section-img" src="images/section-4-mission-promos.jpg" alt="Mission statement and promo cards">
+
+  <!-- IMAGE 5: Collage 3 + Footer CTA + Social -->
+  <img class="section-img" src="images/section-5-collage3-footer.jpg" alt="Final collage and footer call to action">
+
+  <!-- FOOTER -->
+  <footer>
+    Heritage Trail Mercantile LLC 2026, All Rights Reserved &nbsp;·&nbsp;
+    190-B Northfield Road, Northfield, IL, 60093 &nbsp;·&nbsp;
+    847-256-6208 &nbsp;·&nbsp;
+    Privacy Policy and Terms and Services &nbsp;·&nbsp;
+    Development by Notam Branding LLC
+  </footer>
+
+</div>
+</body>
+</html>
