@@ -9,7 +9,7 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
 
 body{
-  background:#d6d3ce;
+  background:rgb(241,240,237);
   font-family:'Cormorant SC',Georgia,serif;
   margin:0;
   padding:0;
@@ -35,7 +35,7 @@ nav{
   text-align:center;
 }
 nav a{
-  font-family:'Cormorant SC',serif;
+  font-family:Baskerville,'Baskerville Old Face',Georgia,serif;
   font-size:11px;
   font-weight:500;
   letter-spacing:.14em;
@@ -64,6 +64,11 @@ nav a:hover{text-decoration:underline;}
   margin-top:24px;
 }
 
+/* House of Holly and Sales Events sit closer together */
+#section-8{
+  margin-top:8px;
+}
+
 /* SOCIAL ICONS */
 .social{
   display:flex;
@@ -78,17 +83,16 @@ nav a:hover{text-decoration:underline;}
 footer{
   background:#fff;
   text-align:center;
-  padding:0 20px 20px;
+  padding:14px 20px 20px;
   border-top:1px solid #e0ddd8;
-  padding-top:14px;
-  font-family:'Cormorant SC',serif;
-  font-size:8px;
-  letter-spacing:.07em;
-  color:#9a9590;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:9px;
+  letter-spacing:.04em;
+  color:#000;
   line-height:1.9;
 }
 footer a{
-  color:#9a9590;
+  color:#000;
   text-decoration:none;
 }
 footer a:hover{text-decoration:underline;}
@@ -125,10 +129,14 @@ footer a:hover{text-decoration:underline;}
   <img class="sec-img" src="section-6-mission.jpg" alt="Our mission is to inspire">
 
   <!-- IMAGE 7: House of Holly -->
-  <img class="sec-img" src="section-7-holly.jpg" alt="House of Holly chic boutique">
+  <a href="https://www.instagram.com/house_of_holly_vintage/" target="_blank">
+    <img class="sec-img" src="section-7-holly.jpg" alt="House of Holly chic boutique">
+  </a>
 
   <!-- IMAGE 8: Sales Events -->
-  <img class="sec-img" src="section-8-sales.jpg" alt="Sales Events">
+  <a href="sales.html">
+    <img class="sec-img" id="section-8" src="section-8-sales.jpg" alt="Sales Events">
+  </a>
 
   <!-- IMAGE 9: Collage 3 -->
   <img class="sec-img" src="section-9-collage3.jpg" alt="Vintage home and fashion collage">
